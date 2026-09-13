@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "COVID-19 US Tracking Sample"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "35e94045-56d5-a32b-464a-a4d9be675ac5"
+  }
+}

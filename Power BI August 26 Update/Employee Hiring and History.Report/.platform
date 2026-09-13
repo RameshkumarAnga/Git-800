@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Employee Hiring and History"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "de0251f1-afdf-8c25-42ee-6628a3e09855"
+  }
+}

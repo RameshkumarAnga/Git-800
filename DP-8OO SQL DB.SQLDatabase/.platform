@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SQLDatabase",
+    "displayName": "DP-8OO SQL DB"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "773c6fac-1576-bf05-4326-0da240033d8e"
+  }
+}

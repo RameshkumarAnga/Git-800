@@ -1,0 +1,56 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Sales_LT_Dimension_Proudct_Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "gatewayObjectId": "eab3f563-ebaa-4385-995f-51017efd790a",
+  "queriesMetadata": {
+    "CustomerAddress": {
+      "queryId": "5511cacb-a71d-48b1-822e-2b9e855dfb95",
+      "queryName": "CustomerAddress",
+      "loadEnabled": false
+    },
+    "ProductCategory": {
+      "queryId": "e5a6cd73-9569-4cde-806d-c777ec1c2d91",
+      "queryName": "ProductCategory",
+      "loadEnabled": false
+    },
+    "ProductModel": {
+      "queryId": "741811ce-7326-45da-99ba-3a7203e78089",
+      "queryName": "ProductModel",
+      "loadEnabled": false
+    },
+    "ProductModelProductDescription": {
+      "queryId": "2d142d93-6ffc-498b-9bed-c1559ad07ff8",
+      "queryName": "ProductModelProductDescription",
+      "loadEnabled": false
+    },
+    "ProductModelProductDescription_DataDestination": {
+      "queryId": "4b69884a-5058-4465-9b7b-e7abd25cd849",
+      "queryName": "ProductModelProductDescription_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "DefaultDestination": {
+      "queryId": "a42684ec-b3e6-4327-af10-1f06e8cfb2f0",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "rameshkumar;AdventureWorksLT2019",
+      "kind": "SQL",
+      "connectionId": "{\"ClusterId\":\"eab3f563-ebaa-4385-995f-51017efd790a\",\"DatasourceId\":\"bd277b75-19e4-4b62-b727-344d4c0fc70d\"}"
+    },
+    {
+      "path": "FabricSql",
+      "kind": "FabricSql",
+      "connectionId": "{\"ClusterId\":\"eab3f563-ebaa-4385-995f-51017efd790a\",\"DatasourceId\":\"fa2fe0d7-22b8-4653-8503-e4dc1bcddb5c\"}"
+    }
+  ]
+}

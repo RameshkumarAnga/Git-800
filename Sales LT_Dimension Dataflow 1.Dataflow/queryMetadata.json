@@ -1,0 +1,70 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Sales LT Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "gatewayObjectId": "eab3f563-ebaa-4385-995f-51017efd790a",
+  "queriesMetadata": {
+    "Address": {
+      "queryId": "88bd544f-897f-4ef7-bc61-3be9112cf22d",
+      "queryName": "Address",
+      "loadEnabled": false
+    },
+    "Customer": {
+      "queryId": "5fca5a89-4381-4942-a905-1eaf1034bd36",
+      "queryName": "Customer",
+      "loadEnabled": false
+    },
+    "CustomerAddress": {
+      "queryId": "6073f256-b146-4db9-8a38-053ddbb044c9",
+      "queryName": "CustomerAddress",
+      "loadEnabled": false
+    },
+    "Product": {
+      "queryId": "9432440f-4eb3-49cb-b7e7-10b05eae6d56",
+      "queryName": "Product",
+      "loadEnabled": false
+    },
+    "ProductCategory": {
+      "queryId": "dcdb8007-5f2c-414c-adc2-1179680276bd",
+      "queryName": "ProductCategory",
+      "loadEnabled": false
+    },
+    "ProductDescription": {
+      "queryId": "4332e2d5-e842-4619-a0e0-3055b52d4d2d",
+      "queryName": "ProductDescription",
+      "loadEnabled": false
+    },
+    "ProductModel": {
+      "queryId": "a808d549-6adf-47c4-bbdf-d6208d8afa55",
+      "queryName": "ProductModel",
+      "loadEnabled": false
+    },
+    "ProductModelProductDescription": {
+      "queryId": "c98d60cf-b3e0-431f-beb3-57727a40905b",
+      "queryName": "ProductModelProductDescription",
+      "loadEnabled": false
+    },
+    "DefaultDestination": {
+      "queryId": "aee8d9a7-28aa-4cd0-9428-b0dc2dc11291",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "rameshkumar;AdventureWorksLT2019",
+      "kind": "SQL",
+      "connectionId": "{\"ClusterId\":\"eab3f563-ebaa-4385-995f-51017efd790a\",\"DatasourceId\":\"bd277b75-19e4-4b62-b727-344d4c0fc70d\"}"
+    },
+    {
+      "path": "FabricSql",
+      "kind": "FabricSql",
+      "connectionId": "{\"ClusterId\":\"eab3f563-ebaa-4385-995f-51017efd790a\",\"DatasourceId\":\"fa2fe0d7-22b8-4653-8503-e4dc1bcddb5c\"}"
+    }
+  ]
+}

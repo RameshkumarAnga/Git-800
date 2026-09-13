@@ -1,0 +1,35 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "SalesLT_Bridge_Dimention_Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "gatewayObjectId": "eab3f563-ebaa-4385-995f-51017efd790a",
+  "queriesMetadata": {
+    "ProductCategory": {
+      "queryId": "a82a2619-614d-442d-8bd1-2d094e192f5c",
+      "queryName": "ProductCategory",
+      "loadEnabled": false
+    },
+    "DefaultDestination": {
+      "queryId": "1961312a-2cdf-4cf9-a9d8-f34ff1ee7d72",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "rameshkumar;AdventureWorksLT2019",
+      "kind": "SQL",
+      "connectionId": "{\"ClusterId\":\"eab3f563-ebaa-4385-995f-51017efd790a\",\"DatasourceId\":\"bd277b75-19e4-4b62-b727-344d4c0fc70d\"}"
+    },
+    {
+      "path": "FabricSql",
+      "kind": "FabricSql",
+      "connectionId": "{\"ClusterId\":\"eab3f563-ebaa-4385-995f-51017efd790a\",\"DatasourceId\":\"fa2fe0d7-22b8-4653-8503-e4dc1bcddb5c\"}"
+    }
+  ]
+}

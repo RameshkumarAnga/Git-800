@@ -1,0 +1,40 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Sales_LT_Fact_Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "gatewayObjectId": "eab3f563-ebaa-4385-995f-51017efd790a",
+  "queriesMetadata": {
+    "SalesOrderDetail": {
+      "queryId": "bcc17c93-9b60-40b4-acfe-dc7291c8deaa",
+      "queryName": "SalesOrderDetail",
+      "loadEnabled": false
+    },
+    "SalesOrderHeader": {
+      "queryId": "b45f146d-d4db-470a-8616-3d3919046d61",
+      "queryName": "SalesOrderHeader",
+      "loadEnabled": false
+    },
+    "DefaultDestination": {
+      "queryId": "039ba7fd-78b0-496f-825b-fbe3336bd8b5",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "rameshkumar;AdventureWorksLT2019",
+      "kind": "SQL",
+      "connectionId": "{\"ClusterId\":\"eab3f563-ebaa-4385-995f-51017efd790a\",\"DatasourceId\":\"bd277b75-19e4-4b62-b727-344d4c0fc70d\"}"
+    },
+    {
+      "path": "FabricSql",
+      "kind": "FabricSql",
+      "connectionId": "{\"ClusterId\":\"eab3f563-ebaa-4385-995f-51017efd790a\",\"DatasourceId\":\"fa2fe0d7-22b8-4653-8503-e4dc1bcddb5c\"}"
+    }
+  ]
+}

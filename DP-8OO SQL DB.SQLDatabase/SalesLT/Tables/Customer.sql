@@ -8,7 +8,7 @@ CREATE TABLE [SalesLT].[Customer] (
     [Suffix]       NVARCHAR (MAX) NULL,
     [CompanyName]  NVARCHAR (MAX) NULL,
     [SalesPerson]  NVARCHAR (MAX) NULL,
-    [EmailAddress] NVARCHAR (MAX) NULL,
+    [EmailAddress] NVARCHAR (50)  NULL,
     [Phone]        NVARCHAR (MAX) NULL,
     [PasswordHash] NVARCHAR (MAX) NULL,
     [PasswordSalt] NVARCHAR (MAX) NULL,
